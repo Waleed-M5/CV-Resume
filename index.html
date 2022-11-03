@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========= BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========= CSS ==========-->
+    <link rel="stylesheet" href="style.css" />
+    <title>First CV</title>
+  </head>
+
+  <body>
+    <!--========= HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Waleed</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Profile
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>Projects
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#References" class="nav__link">
+                <i class="bx bx-link-external nav__icon"></i>References
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-containers">
+      <!-- All Elements Within This Div, Is Generated In PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="./img/1.jpg" alt="" class="home__img" />
+                <h1 class="home__title">WALEED <b>AHMAD</b></h1>
+                <h3 class="home__profession">Web Developer</h3>
+
+                <!-- Button To Download Your CV Saved In The PDF Folder. Available For Mobile -->
+                <div>
+                  <a
+                    download=""
+                    href="./pdf/myResume.pdf"
+                    class="home__button-movil"
+                    >Download</a
+                  >
+                </div>
+              </div>
+
+              <div class="home__adress bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i> House No 15 Al-Hafiz Town
+                  Near Marghazar Colony Multan Road - Lahore
+                </span>
+
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i>
+                  wal33dm5@gmail.com
+                </span>
+
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i> +92 309 943300
+                </span>
+              </div>
+            </div>
+            <!-- Theme Change Button -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+
+            <!-- Button To Generate & Download The PDF. Available For Desktop -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+
+            <div class="social__container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/wal33d-ahmad/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i>
+                linkedin.com/in/wal33d-ahmad
+              </a>
+
+              <a
+                href="https://github.com/Waleed-M5"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social__icon"></i> Waleed-M5
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+
+            <p class="profile__description">
+              I am a person, responsible with their work during working hours. I
+              am a good timekeeper, always willing to learn new skills. I have
+              several months of experience as salesman. I am also learning full
+              stack web development course in which my experience is 7 months.
+            </p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">MATRIC</h3>
+                  <span class="education__studies">American Lyceum School</span>
+                  <span class="education__year">2016 - 2018</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">F.A</h3>
+                  <span class="education__studies">Degree College</span>
+                  <span class="education__year">2018 - 2020</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">FULL STACK WEB DEVELOPER</h3>
+                  <span class="education__studies"
+                    >Pny Training - Arfa Tower</span
+                  >
+                  <span class="education__year">2022 - Current</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== SKILLS ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Html
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Css
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>JavaScript
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Mern Stack
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Mongo db
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Express
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>React
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">SALEMAN IN PHARMACY</h3>
+                  <span class="experience__company"
+                    >From 2018 - 2019 | Pharmiz Pharmacy</span
+                  >
+                  <p class="experience__description">
+                    Work in this company dedicating the best responsibility in
+                    the area that corresponds, delivering the best results for
+                    the company and improving productivity.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!-- <span class="experience__line"></span> -->
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Full Stack WEB Developer</h3>
+                  <span class="experience__company"
+                    >From 2022 - Current | Arfa Tower</span
+                  >
+                  <p class="experience__description">
+                    I started my course at the beginning of this year and have
+                    gained a lot of experience so far. While learning web
+                    development course I have completed some projects some of
+                    which I am going to share with you.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== PROJECTS ==========-->
+          <section class="project section" id="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="project__container bd-grid">
+              <div class="project__content">
+                <h3 class="project__title">TextUtils</h3>
+                <p class="project__description">
+                  TextUtils is a word counter and a character counting utility
+                  which can be used to manipulate your text in the way you want.
+                  You can remove extra spaces, copy the manipulated text as well
+                  as covert your text from uppercase to lowercase, & lowercase
+                  to uppercase.
+                </p>
+              </div>
+
+              <div class="project__content">
+                <h3 class="project__title">Google Keep Clone</h3>
+                <p class="project__description">
+                  Keep Clone is project, made for practicing my skills and show
+                  up a fully functionaing JavaScript clone for google keep This
+                  is a Google Keep inspired, Notes keeping app. The best part?
+                  All the notes you save are kept locally on your computer!
+                </p>
+              </div>
+
+              <div class="project__content">
+                <h3 class="project__title">NewsApp</h3>
+                <p class="project__description">
+                  NewsApp can be used to grab quick daily news bites from
+                  worldwide in this app you can easily read news articles and
+                  explore the world.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!--========== REFERENCES ==========-->
+          <section class="references section" id="references">
+            <h2 class="section-title">References</h2>
+
+            <div class="references__container bd-grid">
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">No Reference</span>
+                <!-- <h3 class="references__title"></h3> -->
+                <!-- <ul class="references__contact">
+                  <li>Phone:</li>
+                  <li>Email:</li>
+                </ul> -->
+              </div>
+            </div>
+          </section>
+
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span> English
+                </li>
+
+                <li class="languages__name">
+                  <span class="languages__circle"></span> Urdu
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== INTERESTS ==========-->
+          <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <ion-icon
+                  name="game-controller-outline"
+                  class="interests__icon"
+                ></ion-icon>
+                <span class="interests__name">Gaming</span>
+              </div>
+
+              <div class="interests__content">
+                <ion-icon
+                  name="code-working"
+                  class="interests__icon"
+                ></ion-icon>
+                <span class="interests__name">Programming</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bxs-plane-alt interests__icon"></i>
+                <span class="interests__name">Travel</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interests__name">Learning</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--========= SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========= HTML2PDF ==========-->
+    <script src="./html2pdf.bundle.min.js"></script>
+
+    <!--========= ION-ICON ==========-->
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+
+    <!--========= MAIN JS ==========-->
+    <script src="./main.js"></script>
+  </body>
+</html>
